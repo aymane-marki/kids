@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default";
+
+@plugin "flowbite/plugin";
+
+@source "../node_modules/flowbite";
+
+:root {
+  
+  --orange-600: #FF8D4C;
+  --orange-500: #FF9E66;
+  --orange-400: #FFAE80;
+  --orange-300: #FFBE99;
+  --orange-200: #FFDECC;
+  --orange-100: #FFEFE5;
+  --orange-50:  #FFF5F0;
+  --orange-25:  #FFFCFA;
+
+ 
+  --gray-950: #191919;
+  --gray-900: #262626;
+  --gray-800: #333333;
+  --gray-700: #4C4C4D;
+  --gray-600: #59595A;
+  --gray-500: #656567;
+  --gray-400: #98989A;
+  --gray-300: #B3B3B3;
+}
+
+@theme inline{
+  
+  --color-orange-600: var(--orange-600);
+  --color-orange-500: var(--orange-500);
+  --color-orange-400: var(--orange-400);
+  --color-orange-300: var(--orange-300);
+  --color-orange-200: var(--orange-200);
+  --color-orange-100: var(--orange-100);
+  --color-orange-50:  var(--orange-50);
+  --color-orange-25:  var(--orange-25);
+
+  --color-gray-950: var(--gray-950);
+  --color-gray-900: var(--gray-900);
+  --color-gray-800: var(--gray-800);
+  --color-gray-700: var(--gray-700);
+  --color-gray-600: var(--gray-600);
+  --color-gray-500: var(--gray-500);
+  --color-gray-400: var(--gray-400);
+  --color-gray-300: var(--gray-300);
+}
